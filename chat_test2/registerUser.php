@@ -1,5 +1,5 @@
 <?php
-$apiKey = 'a7981f14fe51e2b6e0d3d0368087e47a'; // Channel TalkのAPIキー
+$apiKey = 'myapikey'; // 実際のChannel TalkのAPIキーに置き換える
 
 // PHPのinputストリームからJSONデータを受け取る
 $data = json_decode(file_get_contents('php://input'), true);
