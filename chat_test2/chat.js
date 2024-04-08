@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
             // ユーザー情報を使ってChannel Talkウィジェットを初期化し、表示
             ChannelIO('boot', {
-                "pluginKey": "748abef7-08de-4b43-a36d-6784199afd77", // 実際のプラグインキーに置き換えてください
+                "pluginKey": "mypluginkey", // 実際のプラグインキーに置き換えてください
                 "firstMessage": firstMessage,
                 "profile": {
                     "name": name,
